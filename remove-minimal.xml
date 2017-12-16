@@ -220,6 +220,7 @@
     <remove-project name="platform/frameworks/opt/inputconnectioncommon" />
     <remove-project name="platform/frameworks/opt/inputmethodcommon" />
     <remove-project name="platform/frameworks/opt/net/ethernet" />
+    <remove-project name="platform/frameworks/opt/net/ims" />
     <remove-project name="platform/frameworks/opt/net/voip" />
     <remove-project name="platform/frameworks/opt/net/wifi" />
     <remove-project name="platform/frameworks/opt/photoviewer" />
@@ -235,8 +236,6 @@
     <remove-project name="platform/hardware/broadcom/wlan" />
     <remove-project name="platform/hardware/google/apf" />
     <remove-project name="platform/hardware/marvell/bt" />
-    <remove-project name="platform/hardware/qcom/bootctrl" />
-    <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
     <remove-project name="platform/hardware/qcom/keymaster" />
     <remove-project name="platform/hardware/qcom/msm8960" />
     <remove-project name="platform/hardware/qcom/msm8994" />
@@ -315,6 +314,7 @@
     <remove-project name="platform/packages/services/Car" />
     <remove-project name="platform/packages/services/Mms" />
     <remove-project name="platform/packages/services/NetworkRecommendation" />
+    <remove-project name="platform/packages/services/Telecomm"  />
     <remove-project name="platform/packages/wallpapers/LivePicker" />
 
     <remove-project name="platform/pdk" />
@@ -397,7 +397,6 @@
     <remove-project name="android_frameworks_base" />
 -->
 
-    <remove-project name="android_frameworks_opt_net_ims" />
     <remove-project name="android_frameworks_opt_telephony" />
 
     <remove-project name="android_hardware_invensense" />
@@ -414,11 +413,9 @@
     <remove-project name="android_packages_apps_Gallery2" />
     <remove-project name="android_packages_apps_MusicFX" />
     <remove-project name="android_packages_apps_Nfc" />
-    <remove-project name="android_packages_apps_PhoneCommon"  />
     <remove-project name="android_packages_apps_Settings" />
     <remove-project name="android_packages_inputmethods_LatinIME" />
     <remove-project name="android_packages_providers_DownloadProvider" />
-    <remove-project name="android_packages_services_Telecomm"  />
     <remove-project name="android_packages_services_Telephony" />
 
     <remove-project name="android_system_bt" />
