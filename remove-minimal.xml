@@ -42,13 +42,10 @@
     <remove-project name="platform/external/dnsmasq" />
     <remove-project name="platform/external/doclava" />
     <remove-project name="platform/external/donuts" />
-    <remove-project name="platform/external/drm_gralloc" />
     <remove-project name="platform/external/drm_hwcomposer" />
     <remove-project name="platform/external/droiddriver" />
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/easymock" />
-    <remove-project name="platform/external/eclipse-basebuilder" />
-    <remove-project name="platform/external/eclipse-windowbuilder" />
     <remove-project name="platform/external/emma" />
     <remove-project name="platform/external/esd" />
     <remove-project name="platform/external/eyes-free" />
@@ -120,7 +117,6 @@
     <remove-project name="platform/external/libphonenumber" />
     <remove-project name="platform/external/libusb" />
     <remove-project name="platform/external/libusb-compat" />
-    <remove-project name="platform/external/libutf" />
     <remove-project name="platform/external/libvncserver" />
     <remove-project name="platform/external/libvorbis" />
     <remove-project name="platform/external/libvpx" />
@@ -270,15 +266,12 @@
     <remove-project name="platform/packages/apps/Messaging" />
     <remove-project name="platform/packages/apps/OneTimeInitializer" />
     <remove-project name="platform/packages/apps/PackageInstaller" />
-    <remove-project name="platform/packages/apps/Phone" />
     <remove-project name="platform/packages/apps/Protips" />
     <remove-project name="platform/packages/apps/Provision" />
     <remove-project name="platform/packages/apps/QuickSearchBox" />
-    <remove-project name="platform/packages/apps/RetailDemo" />
     <remove-project name="platform/packages/apps/SafetyRegulatoryInfo" />
     <remove-project name="platform/packages/apps/SoundRecorder" />
     <remove-project name="platform/packages/apps/SpareParts" />
-    <remove-project name="platform/packages/apps/SpeechRecorder" />
     <remove-project name="platform/packages/apps/Stk" />
     <remove-project name="platform/packages/apps/StorageManager" />
     <remove-project name="platform/packages/apps/Tag" />
@@ -336,8 +329,6 @@
     <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
     <remove-project name="platform/prebuilts/devtools" />
     <remove-project name="platform/prebuilts/deqp" />
-    <remove-project name="platform/prebuilts/eclipse" />
-    <remove-project name="platform/prebuilts/eclipse-build-deps" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
