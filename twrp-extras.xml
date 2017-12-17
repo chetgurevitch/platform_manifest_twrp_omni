@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- TWRP lives in omnirom android-8.0 (not AOSP!) -->
+<!-- TWRP lives in omnirom android-8.1 (not AOSP!) -->
     <remove-project name="platform/bootable/recovery" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-8.0" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-8.1" />
 
 
-<!-- FBE libs (using AOSP tag android-8.0.0_r34) -->
+<!-- FBE libs (using AOSP tag android-8.1.0_r1) -->
     <!-- libkeymaster1.so -> libkeymaster_portable.so and libkeymaster_staging.so -->
     <remove-project name="platform/system/keymaster" />
     <remove-project name="platform/system/security" />
-    <project path="system/keymaster" name="platform/system/keymaster" remote="aosp" revision="refs/tags/android-8.0.0_r34" />
-    <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-8.0.0_r34" />
+    <project path="system/keymaster" name="platform/system/keymaster" remote="aosp" revision="refs/tags/android-8.1.0_r1" />
+    <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-8.1.0_r1" />
 
     <!-- weaver -->
-    <project path="TeamWin/.repo/AOSP/hardware/interfaces" name="platform/hardware/interfaces" remote="aosp" revision="refs/tags/android-8.0.0_r34" >
+    <project path="TeamWin/.repo/AOSP/hardware/interfaces" name="platform/hardware/interfaces" remote="aosp" revision="refs/tags/android-8.1.0_r1" >
          <!-- TeamWin/.repo/AOSP is just a staging directory -->
         <linkfile src="weaver" dest="hardware/interfaces/weaver" />
     </project>
 
     <!-- libkeyutils.so -->
-    <project path="TeamWin/.repo/AOSP/system/core" name="platform/system/core" remote="aosp" revision="refs/tags/android-8.0.0_r34" >
+    <project path="TeamWin/.repo/AOSP/system/core" name="platform/system/core" remote="aosp" revision="refs/tags/android-8.1.0_r1" >
          <!-- TeamWin/.repo/AOSP is just a staging directory -->
         <linkfile src="libkeyutils" dest="system/core/libkeyutils" />
     </project>
